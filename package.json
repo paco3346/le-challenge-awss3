@@ -1,0 +1,31 @@
+{
+  "name": "le-challenge-awss3",
+  "version": "2.0.0",
+  "description": "An S3 backed challenge strategy for node-letsencrypt",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paco3346/le-challenge-awss3.git"
+  },
+  "keywords": [
+    "letsencrypt",
+    "aws",
+    "s3",
+    "node-letsencrypt"
+  ],
+  "author": "Michael Ambrose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paco3346/le-challenge-awss3/issues"
+  },
+  "homepage": "https://github.com/paco3346/le-challenge-awss3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.12"
+  }
+}
